@@ -1,34 +1,40 @@
- 🧠 Multimodal AI Shopping Assistant
+ Project: Multimodal AI Shopping Assistant
+Duration: Jun 2025 – Jul 2025
+Live Demo: YouTube Link
+GitHub: rayeesa163/Multimodal-AI-Shopping-Assistant
 
-An AI-powered shopping system that combines **facial emotion detection** and **natural language intent understanding** to recommend products that align with both your mood and your query — in real time.
+Description:
+A cloud-deployed AI web app that takes user input (text query + real-time emotion via webcam) and generates personalized product recommendations instantly. This project demonstrates seamless integration of multiple AI modalities, real-time inference, and interactive UI.
 
-> 🎯 Project submitted for **Walmart Converge 2025**  
-> 👩‍💻 Built with ❤️ by **Rayeesa Tabusum** & **Mahera Mahin**
+Key Features:
 
----
+Captures user emotion using DeepFace
 
- 🔍 What It Does
+Understands user intent using BERT (Sentence Transformers)
 
-- 🎭 Detects your **emotion** using your webcam (via DeepFace)
-- 💬 Understands your **shopping request** using BERT
-- 🧠 Recommends products that match your **emotion + intent**
-- 🚀 All inside a responsive **Streamlit interface**
+Recommends products by combining emotion + intent through Cosine Similarity
 
----
+Interactive real-time interface built with Streamlit
 
-## 🛠️ Tech Stack
+Tech Stack: Python, OpenCV, PyTorch, Streamlit
 
-| Component              | Tech Used                     |
-|------------------------|-------------------------------|
-| Emotion Detection      | DeepFace + OpenCV             |
-| NLP for Query Parsing  | BERT (Sentence Transformers)  |
-| Recommendation Engine  | Cosine Similarity             |
-| Interface              | Streamlit                     |
-| Language               | Python                        |
+Skills Demonstrated:
 
----
+Multimodal AI integration (vision + NLP)
 
-## 📦 Installation & Setup
+Real-time AI inference and recommendation systems
+
+Frontend UI design for AI apps
+
+Cloud-ready deployment and interactive web apps
+
+Why it fits the minimal AI generation concept:
+
+Takes live input → AI generates meaningful output instantly
+
+Fully functional demo deployed in real-time
+
+Clean and user-friendly interface for practical interaction
 
 1. Clone the repo:
 ```bash
